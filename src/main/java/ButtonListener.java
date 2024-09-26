@@ -4,7 +4,6 @@ import java.awt.event.ActionListener;
 
 public class ButtonListener implements ActionListener {
 
-
     private final JTextField inputField;
 
     public ButtonListener(JTextField inputField) {

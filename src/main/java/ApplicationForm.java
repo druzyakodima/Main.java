@@ -62,7 +62,6 @@ public class ApplicationForm extends JFrame {
 
         }
 
-
         bottom.add(digitsPanel, BorderLayout.CENTER);
         //OPERATORS
         JPanel advPanel = new JPanel();
@@ -114,7 +113,7 @@ public class ApplicationForm extends JFrame {
         inputField = new JTextField();
         inputField.setEditable(false);
         top.add(inputField);
-        
+
         return top;
     }
 
